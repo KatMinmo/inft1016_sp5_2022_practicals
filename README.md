@@ -43,6 +43,11 @@ def foo():
 ![this is an image](https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Kismet-IMG_6007-black.jpg/800px-Kismet-IMG_6007-black.jpg)
 [here is a link](https://commons.wikimedia.org/wiki/File:Kismet-IMG_6007-black.jpg)
 
+| Number | Colour | Size |
+|---:    |  :---  | :---:|
+| 1      | blue   | 10cm |
+| 2      | yellow | 11cm |
+| 3      | green  | 12cm |
 ```
 def my_function():
     print("Hello from a function")
