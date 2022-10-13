@@ -37,3 +37,5 @@ Format this text as code.
 `    if not bar:`
 `        return True`
 
+![this is an image](https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Kismet-IMG_6007-black.jpg/800px-Kismet-IMG_6007-black.jpg.)
+[inline-style link with title to](https://commons.wikimedia.org/wiki/File:Kismet-IMG_6007-black.jpg)
