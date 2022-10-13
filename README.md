@@ -30,12 +30,15 @@ Here's an ordered list, with:
 5. Item three-B
 > This is a block quote. It should be in block quotes! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 # This is a large heading. 
-[Inline code:](make this word inline.)
+1. Inline code:
+    - make this word inline.
 # This is a large heading. 
 Format this text as code. 
-`def foo():`
-`    if not bar:`
-`        return True`
+```
+def foo():
+    if not bar:
+        return True
+```
 
-![this is an image](https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Kismet-IMG_6007-black.jpg/800px-Kismet-IMG_6007-black.jpg.)
-[inline-style link with title to](https://commons.wikimedia.org/wiki/File:Kismet-IMG_6007-black.jpg)
+![this is an image](https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Kismet-IMG_6007-black.jpg/800px-Kismet-IMG_6007-black.jpg)
+[here is a link](https://commons.wikimedia.org/wiki/File:Kismet-IMG_6007-black.jpg)
