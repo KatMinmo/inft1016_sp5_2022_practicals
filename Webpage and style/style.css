@@ -1,0 +1,34 @@
+
+<link rel="stylesheet" type="text/css" href="style.css" media="screen" title="Basic" />
+
+body {
+    color: c-background-color;
+}
+header {
+    color: c-background-highlights;
+}
+footer {
+    color: c-background-highlights;
+}
+head, body, footer {
+    color: base-font-color;
+}
+
+
+
+
+base-font-color         131 148 150
+secondary-font-color    88 110 117 
+emphasised-font         147 161 161
+
+c-background-color      0  43  54
+c-background-highlights 7  54  66
+
+c-yellow      181 137   0 
+c-orange      203  75  22  
+c-red         220  50  47  
+c-magenta     211  54 130 
+c-violet      108 113 196 
+c-blue        38 139 210 
+c-cyan        42 161 152 
+c-green       133 153   0 
