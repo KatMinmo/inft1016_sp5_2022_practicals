@@ -1,0 +1,17 @@
+:root {
+    --primary-color: rgb(255, 255, 255);
+    --secondary-color: rgb(221, 160, 221);
+    --bg-color: rgb(0, 0, 0);
+    --font-color: rgb(0, 0, 0);
+    --heading-color: rgb(0, 0, 0); 
+}
+[data-theme="dark"] {
+    --primary-color: rgb(0, 0, 0);
+    --secondary-color: rgb(221, 160, 221);
+    --bg-color: rgb(255, 255, 255);
+    --font-color: rgb(255, 255, 255);
+    --heading-color: rgb(255, 255, 255);
+}
+ 
+
+
