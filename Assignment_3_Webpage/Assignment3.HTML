@@ -1,12 +1,30 @@
 <!DOCTYPE html><html>  <head>    <meta charset="utf-8"> 
     <title>My page title</title>
     <link rel="stylesheet" href="base.css">
-    <script></script>
+    <script>
+        function Submit() {
+            let name = document.getElementById("txtname").value;
+            window.location.href = "displayUser.html?user=" + name;
+        }
+        function sayHellow() {
+    
+            let params = new URLSearchParams(window.location.search);
+            let values = [];
+            for (const value of params.values()) {
+      
+            values.push(value);
+        }
+        console.log(values);
+        document.write("<h2>Hellow! "+values[0]+"</h2>")
+        }
+
+    </script>
     </head>  
     <body>    
     <header>
-        <h1>Ada Lovelace and her contribution to the world of Infomation Technology</h1>
-        <button onclick="toggle">Toggle Theme</button>
+        <h1 id="h1">Hello World</h1>
+        <h2>Ada Lovelace and her contribution to the world of Infomation Technology</h1>
+        <button onclick=getTheme()>Toggle Theme</button>
     </header>
     <nav> 
         <ul>
