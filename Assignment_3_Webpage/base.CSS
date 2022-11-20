@@ -1,16 +1,16 @@
 :root {
-    --primary-color: rgb(255, 255, 255);
-    --secondary-color: rgb(221, 160, 221);
-    --bg-color: rgb(0, 0, 0);
-    --font-color: rgb(0, 0, 0);
-    --heading-color: rgb(0, 0, 0); 
+    --primary-color: #302AE6;
+    --secondary-color: #536390;
+    --bg-color: #424242;
+    --font-color: #fff;
+    --heading-color: #292922; 
 }
 [data-theme="dark"] {
-    --primary-color: rgb(0, 0, 0);
-    --secondary-color: rgb(221, 160, 221);
-    --bg-color: rgb(255, 255, 255);
-    --font-color: rgb(255, 255, 255);
-    --heading-color: rgb(255, 255, 255);
+    --primary-color: #9a97f3;
+    --secondary-color: #818cab;
+    --bg-color: #e1e1ff;
+    --font-color: #161625;
+    --heading-color: #818cab;
 }
 
 .theme-switch-wrapper {
